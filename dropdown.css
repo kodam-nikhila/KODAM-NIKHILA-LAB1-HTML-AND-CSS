@@ -1,0 +1,60 @@
+body{
+    height: auto;
+    margin: 0%;
+    background-image:url("https://tinyurl.com/3y4cn73j");
+}
+header h1{
+    background-color:aqua;
+    margin: 0%;
+    padding: 20px;
+    text-align: right;
+    color: brown;
+}
+#nav{
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+    background-color: blueviolet;
+    
+}
+.menu{
+    margin: 0%;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+.menu li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.menu li{
+    padding: 10px;
+    display: inline-block;
+}
+.menu li:hover{
+    background-color: palevioletred;
+}
+.menu li:nth-child(2):hover #drop1, .menu li:nth-child(3):hover #drop2{
+    display: block;
+}
+#drop1, #drop2{
+    position: absolute;
+    width: auto;
+    max-width: 150px;
+    display: none;
+    top: 42.5px;
+    background-color:burlywood;
+    padding: 0%;
+    
+    
+}
+#drop1 li, #drop2 li{
+    display: block;
+    
+}
+#drop1 li:hover, #drop2 li:hover{
+    background-color: orangered;
+}
+#drop1 li a, #drop2 li a{
+    color: blue;
+    font-size: 16px;
+}
